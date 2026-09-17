@@ -45,7 +45,7 @@ AO3 download
   unavailable on AO3  0
   to download         32524
   to enrich only      1
-  output folder       /path/to/ao3Archiver/downloaded
+  output folder       /path/to/ao3-to-calibre/downloaded
   delay               10s between requests
   estimated finish    7d12h (about 2026-09-25 07:02)
   failure log         ~/.local/share/ao3-calibre-backfill/download-failures.jsonl

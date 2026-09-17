@@ -16,7 +16,7 @@ each command can be rerun, and each one says what it would do before it does it.
 ## Before you start
 
 ```sh
-git clone <this repository> && cd ao3Archiver
+git clone https://github.com/mm0x1/ao3-to-calibre.git && cd ao3-to-calibre
 python3 -m venv venv && source venv/bin/activate   # optional
 pip install -r requirements.txt
 cp .env.example .env

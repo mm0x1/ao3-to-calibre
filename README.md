@@ -29,7 +29,7 @@ already on disk.
 18:19:39    unavailable on AO3  0
 18:19:39    to download         32524
 18:19:39    to enrich only      1
-18:19:39    output folder       /path/to/ao3Archiver/downloaded
+18:19:39    output folder       /path/to/ao3-to-calibre/downloaded
 18:19:39    delay               10s between requests
 18:19:39    estimated finish    7d12h (about 2026-09-25 07:02)
 18:19:39    failure log         ~/.local/share/ao3-calibre-backfill/download-failures.jsonl
@@ -48,7 +48,7 @@ no question to answer: the run starts.
 **Python 3** (developed and tested on 3.14) with `requests`:
 
 ```sh
-git clone <this repository> && cd ao3Archiver
+git clone https://github.com/mm0x1/ao3-to-calibre.git && cd ao3-to-calibre
 python3 -m venv venv && source venv/bin/activate   # optional
 pip install -r requirements.txt
 cp .env.example .env        # then fill in your AO3 username and password
@@ -67,8 +67,8 @@ ao3Archiver
   kudos, hits, words, a local word count and a readability score, ready to sort on.
 
 Setup
-  [ok]  .env             /path/to/ao3Archiver/.env
-  [ok]  AO3 credentials  from /path/to/ao3Archiver/.env
+  [ok]  .env             /path/to/ao3-to-calibre/.env
+  [ok]  AO3 credentials  from /path/to/ao3-to-calibre/.env
   [  ]  Calibre library  CALIBRE_LIBRARY is not set (only the backfill needs it)
   [  ]  BookOrbit        not configured (optional)
   [ok]  links/           32525 works in 1 file(s)

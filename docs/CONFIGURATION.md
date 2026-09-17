@@ -69,7 +69,7 @@ Whichever wins, every run logs *which source* supplied the pair — never the
 values:
 
 ```text
-using credentials from /path/to/ao3Archiver/.env
+using credentials from /path/to/ao3-to-calibre/.env
 ```
 
 `python3 archiver.py` prints the same thing as a setup check, and
