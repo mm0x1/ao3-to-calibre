@@ -1,0 +1,13 @@
+[project]
+name = "ao3archiver"
+version = "1.0.0"
+description = "Download Archive of Our Own works as EPUBs with their AO3 statistics baked in for Calibre."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = ["requests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
